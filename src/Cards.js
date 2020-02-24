@@ -22,7 +22,7 @@ export class Deck {
         return card;
     }
     suit(card) {
-        return Math.floor(card / this.SUITS);
+        return Math.floor(card / this.CARDS_PER_SUIT);
     }
     value(card) {
         return card % this.CARDS_PER_SUIT;
