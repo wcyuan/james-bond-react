@@ -1,0 +1,120 @@
+import c0 from './assets/images/cards_png_zip/PNG/AC.png';
+import c1 from './assets/images/cards_png_zip/PNG/2C.png';
+import c2 from './assets/images/cards_png_zip/PNG/3C.png';
+import c3 from './assets/images/cards_png_zip/PNG/4C.png';
+import c4 from './assets/images/cards_png_zip/PNG/5C.png';
+import c5 from './assets/images/cards_png_zip/PNG/6C.png';
+import c6 from './assets/images/cards_png_zip/PNG/7C.png';
+import c7 from './assets/images/cards_png_zip/PNG/8C.png';
+import c8 from './assets/images/cards_png_zip/PNG/9C.png';
+import c9 from './assets/images/cards_png_zip/PNG/10C.png';
+import c10 from './assets/images/cards_png_zip/PNG/JC.png';
+import c11 from './assets/images/cards_png_zip/PNG/QC.png';
+import c12 from './assets/images/cards_png_zip/PNG/KC.png';
+import c13 from './assets/images/cards_png_zip/PNG/AD.png';
+import c14 from './assets/images/cards_png_zip/PNG/2D.png';
+import c15 from './assets/images/cards_png_zip/PNG/3D.png';
+import c16 from './assets/images/cards_png_zip/PNG/4D.png';
+import c17 from './assets/images/cards_png_zip/PNG/5D.png';
+import c18 from './assets/images/cards_png_zip/PNG/6D.png';
+import c19 from './assets/images/cards_png_zip/PNG/7D.png';
+import c20 from './assets/images/cards_png_zip/PNG/8D.png';
+import c21 from './assets/images/cards_png_zip/PNG/9D.png';
+import c22 from './assets/images/cards_png_zip/PNG/10D.png';
+import c23 from './assets/images/cards_png_zip/PNG/JD.png';
+import c24 from './assets/images/cards_png_zip/PNG/QD.png';
+import c25 from './assets/images/cards_png_zip/PNG/KD.png';
+import c26 from './assets/images/cards_png_zip/PNG/AH.png';
+import c27 from './assets/images/cards_png_zip/PNG/2H.png';
+import c28 from './assets/images/cards_png_zip/PNG/3H.png';
+import c29 from './assets/images/cards_png_zip/PNG/4H.png';
+import c30 from './assets/images/cards_png_zip/PNG/5H.png';
+import c31 from './assets/images/cards_png_zip/PNG/6H.png';
+import c32 from './assets/images/cards_png_zip/PNG/7H.png';
+import c33 from './assets/images/cards_png_zip/PNG/8H.png';
+import c34 from './assets/images/cards_png_zip/PNG/9H.png';
+import c35 from './assets/images/cards_png_zip/PNG/10H.png';
+import c36 from './assets/images/cards_png_zip/PNG/JH.png';
+import c37 from './assets/images/cards_png_zip/PNG/QH.png';
+import c38 from './assets/images/cards_png_zip/PNG/KH.png';
+import c39 from './assets/images/cards_png_zip/PNG/AS.png';
+import c40 from './assets/images/cards_png_zip/PNG/2S.png';
+import c41 from './assets/images/cards_png_zip/PNG/3S.png';
+import c42 from './assets/images/cards_png_zip/PNG/4S.png';
+import c43 from './assets/images/cards_png_zip/PNG/5S.png';
+import c44 from './assets/images/cards_png_zip/PNG/6S.png';
+import c45 from './assets/images/cards_png_zip/PNG/7S.png';
+import c46 from './assets/images/cards_png_zip/PNG/8S.png';
+import c47 from './assets/images/cards_png_zip/PNG/9S.png';
+import c48 from './assets/images/cards_png_zip/PNG/10S.png';
+import c49 from './assets/images/cards_png_zip/PNG/JS.png';
+import c50 from './assets/images/cards_png_zip/PNG/QS.png';
+import c51 from './assets/images/cards_png_zip/PNG/KS.png';
+import back from './assets/images/cards_png_zip/PNG/red_back.png';
+
+
+export class CardImages {
+    constructor() {
+        this.images = [];
+        this.images[0] = c0;
+        this.images[1] = c1;
+        this.images[2] = c2;
+        this.images[3] = c3;
+        this.images[4] = c4;
+        this.images[5] = c5;
+        this.images[6] = c6;
+        this.images[7] = c7;
+        this.images[8] = c8;
+        this.images[9] = c9;
+        this.images[10] = c10;
+        this.images[11] = c11;
+        this.images[12] = c12;
+        this.images[13] = c13;
+        this.images[14] = c14;
+        this.images[15] = c15;
+        this.images[16] = c16;
+        this.images[17] = c17;
+        this.images[18] = c18;
+        this.images[19] = c19;
+        this.images[20] = c20;
+        this.images[21] = c21;
+        this.images[22] = c22;
+        this.images[23] = c23;
+        this.images[24] = c24;
+        this.images[25] = c25;
+        this.images[26] = c26;
+        this.images[27] = c27;
+        this.images[28] = c28;
+        this.images[29] = c29;
+        this.images[30] = c30;
+        this.images[31] = c31;
+        this.images[32] = c32;
+        this.images[33] = c33;
+        this.images[34] = c34;
+        this.images[35] = c35;
+        this.images[36] = c36;
+        this.images[37] = c37;
+        this.images[38] = c38;
+        this.images[39] = c39;
+        this.images[40] = c40;
+        this.images[41] = c41;
+        this.images[42] = c42;
+        this.images[43] = c43;
+        this.images[44] = c44;
+        this.images[45] = c45;
+        this.images[46] = c46;
+        this.images[47] = c47;
+        this.images[48] = c48;
+        this.images[49] = c49;
+        this.images[50] = c50;
+        this.images[51] = c51;
+    }
+    get_image(card) {
+        return this.images[card];
+    }
+    get_back() {
+        return back;
+    }
+}
+
+export default CardImages;
