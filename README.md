@@ -1,4 +1,10 @@
+Work in progress.
+
+Deployed to https://wcyuan.github.io/james-bond-react/
+
 https://en.wikipedia.org/wiki/James_Bond_(card_game)
+
+-----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
