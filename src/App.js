@@ -1,8 +1,16 @@
 import React from 'react';
+import { Deck } from './Cards.js';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
+  const d = new Deck();
+  d.shuffle();
+  console.log(d.deal());
+  console.log(d.deal());
+  console.log(d.deal());
+  console.log(d.deal());
   return (
     <div className="App">
       <header className="App-header">
